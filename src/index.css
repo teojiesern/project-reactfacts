@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ABCA;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
