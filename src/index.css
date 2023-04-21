@@ -1,32 +1,4 @@
 body{
     margin: 0;
-}
-
-.title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #00ABCA;
-}
-
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px 30px;
-    background-color: white;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
-}
-
-.toggle{
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    width: 13%;
-    justify-content: space-between;
-}
-
-#react-icon{
-    width: 60px;
-    height: auto;
+    transition: .2s;
 }

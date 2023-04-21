@@ -1,13 +1,15 @@
 import React from "react"
 import "./switch.css"
 
-export default function ToggleSwitch(){
+export default function ToggleSwitch(props){
     return(
         <div className="ToggleSwitch">
             <input
                 className="react-switch-checkbox"
                 id={`react-switch-new`}
                 type="checkbox"
+                onChange={props.click}
+                checked={props.checked}
             />
             <label
                 className="react-switch-label"
